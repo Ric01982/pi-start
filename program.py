@@ -10,5 +10,6 @@ while True:
         print("no movement")
     if pirdetection == 1:
         print("movement")
+    time.sleep(2)
 
-time.sleep(2)
+
