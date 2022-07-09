@@ -1,7 +1,7 @@
 import urllib.request
 import time
 
-version = "0907221402"
+version = "0907221756"
 scriptlist = (open("/usr/local/src/scriptlist.dat","r")).read()
 
 urllib.request.urlretrieve("https://github.com/Ric01982/pi-start/raw/main/scriptlist.dat","/usr/local/src/scriptlist.dat")
