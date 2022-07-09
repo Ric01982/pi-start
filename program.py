@@ -2,10 +2,10 @@ import RPi.GPIO as GPIO
 import time
 
 GPIO.setmode(GPIO.BOARD)
-GPIO.setup(11,GPIO.IN)
+GPIO.setup(17,GPIO.IN)
 
 while True:
-    pirdetection = GPIO.input(11)
+    pirdetection = GPIO.input(17)
     if pirdetection == 0:
         print("no movement")
     if pirdetection == 1:
